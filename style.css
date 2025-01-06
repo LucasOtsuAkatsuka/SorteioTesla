@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h1 {
+    color: #21c412;
+  }
+  
+  .inputs {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+
+  #sorteio-btn {
+    margin-top: -15px;
+  }
+  
+  #resultado {
+    margin-top: -2px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #numeros-sorteados {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #numeros-sorteados h2 {
+    color: #333;
+    margin-top: -15px;
+  }
+  
+  #lista-numeros {
+    color: #555;
+    font-size: 16px;
+    font-style: italic;
+  }
+
+  #mostrar-numeros-btn{
+    margin-top: 20px;
+  }
